@@ -33,6 +33,47 @@ body, #Container {
 	padding: 15px;
 	/*border: 1px black solid;*/
 }
+@media only screen and (max-width:500px){
+
+[class*="col-"] {
+	width: 100%;
+	padding: 0px;
+}
+
+.col-2 {
+	width: 0%;
+	}
+
+.Homepage .slideshow #image {
+	margin-left: 13%;
+	margin-top: 12%;
+	width: 370px;
+	height: 370px;
+	position: absolute;
+	border-radius: 30px;
+}
+
+.Header .col-2 #search, .Header button {
+	margin-left: 325px;
+}
+
+
+.Homepage .max-width #home-content {
+	margin-top: 500px;
+	margin-left: -140px;
+}
+
+.Homepage .max-width div {
+	margin-bottom: 20px;
+}
+
+.Blogs .col-8 #vid {
+	margin-left: 80px;
+	width: 350px;
+	height: 350px;
+}
+
+}
 
 @media only screen and (max-width:767px){
 
