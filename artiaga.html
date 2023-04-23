@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script>
+    <link rel="icon" href="images/tab-icon.png">
+	<title>Artiaga Portfolio</title>
+</head>
+
+<body>
+	<div id="Container">
+	<div class="Header" id="header">
+		<div class="col-2">
+	<div id="Sidenav" class="sidenav">
+ 	<a href="javascript:void(0)" class="closebtn" id="closebtn" onclick="closeNav()">&times;</a>
+ 	<a id="sidemenu" href="#Me"> About Me </a>
+	<a id="sidemenu" href="#myportf"> Portfolio </a>
+	<a id="sidemenu" href="#blogs"> Blog </a>
+	<a id="sidemenu" href="#myworks"> Other Works </a>
+	<a id="sidemenu" href="#contact2"> Contact </a>
+	</div>
+	<span id="openbtn" onclick="openNav()" >&#9776;</span>
+		</div>
+
+		<div class="col-8">
+	<ul id="menu" class="menu">
+        <li id="aboutme"><a href="#Me"> About Me </a></li>
+        <li id="portf"><a href="#myportf"> Portfolio </a></li>
+        <li id="blog"><a href="#blogs"> Blog </a></li>
+        <li id="works"><a href="#myworks"> Other Works </a></li>
+        <li id="contact"><a href="#contact2"> Contact </a></li>
+    </ul>
+    </div>
+    <div class="col-2">
+    	<input type="text"  placeholder="Search.." name="search" id="search"> 
+    	<button type="submit"><i class="fa fa-search"></i></button>
+
+    </div>
+
+    </div>
+
+    <div class="Homepage">
+    	<div class="slideshow" id="bgimg">
+	<span><img src="images/Me.jpg"  id="image"></span>
+		</div>
+		<div class="slideshow" id="bgimg">
+	<span><img src="images/cropped.jpg"  id="image"></span>
+		</div>
+		<div class="slideshow" id="bgimg">
+	<span><img src="images/party.jpg"  id="image"></span>
+		</div>
+
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Marc Neo Artiaga</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <a href="files/Artiaga_CV.html">Open CV</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="About">
+    	<div class="left col-2">
+    		<div>
+				<p>
+					<br>
+				</p>
+			</div>
+    	</div>
+    	<div class="col-8">
+    		
+		<div class="col-6">
+		<h1 id="Me">About Me</h1>
+		<p>Name: Marc Neo P. Artiaga
+		<br/>Age: 20
+		<br/>Course: BSIT-IS
+		<br/>School: University of Southeastern Philippines (USeP)
+		<br/>Languages learned: 
+		<ul> 
+			<li id="java">Java</li>
+			<li id="cplus">C++</li>
+			<li id="php">PHP</li>
+			<li id="js">JavaScript</li>
+			<li id="html">HTML</li>
+			<li id="css">CSS</li>
+		</ul>
+		</p>
+		</div>
+		<div class="col-6">
+			<h3>Images:</h3>
+		</div>
+		</div>
+		<div class="right col-2">
+			<div>
+				<p>
+					<br>
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="About2">
+		<div class="col-2"></div>
+		<div class="col-8">
+		<h2>As of March 2, 2023 I am currently a student in USeP learning programming to achieve my dreams. I am now in 2nd year of college and so far it is both enjoyable and hard.</h2>
+		<br>
+		</div>
+		<div class="col-2"></div>
+
+	</div>
+
+	<div class="Portfolio">
+		<div class="col-2" id="port"></div>
+
+		<div class="col-8" id="port">
+			<h1 id="myportf">My Portfolio</h1>
+
+			<h3>HTML</h3>
+
+			<h3>CSS</h3>
+
+			<h3>PHP</h3>
+
+		</div>
+
+		<div class="col-2" id="port"></div>
+
+	</div>
+
+	<div class="Blogs">
+		<div class="col-2"></div>
+
+		<div class="col-8">
+		<h1 id="blogs">Blogs</h1>
+		<h2>School Activities</h2>
+		<h3>BBM (Broadband ng Masa)</h3>
+		<p>BBM, a flagship program of the DICT, intends to establish 150 Free WIFI For All sites, citing the need for digital connectivity in areas with little to no internet connection, particularly the Geographically Isolated and Disadvantaged Areas (GIDA) and indigenous communities.</p>
+		<video id="vid" width="820" height="440" controls>
+  		<source src="videos/BBM.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		<br>
+		<br>
+		<h3>Video Placeholder</h3>
+		<video id="vid" width="820" height="440" controls>
+  		<source src="videos/placeholder-video.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		</div>
+
+		<div class="col-2"></div>
+	</div>
+
+	<div class="Works">
+		<div class="col-2"></div>
+
+		<div class="col-8">
+			<h1 id="myworks">My Other Works</h1>
+
+			<h2>Programming Exercises</h2>
+
+			<h2>LE Programs</h2>
+
+			<h2>ACN activities</h2>
+		</div>
+
+		<div class="col-2"></div>
+		
+	</div>
+
+	<div class="Contact">
+		<div class="col-2"></div>
+
+		<div class="col-8">
+			<div class="col-6">
+			<h1 id="contact2">Contact</h1>
+			<p>Please submit a form for your queries</p>
+    			<label for="name">Full Name</label>
+    			<input type="text" id="name" name="name" placeholder="Please write your full name..">
+
+    			<label for="email">Email</label>
+    			<input type="text" id="email" name="email" placeholder="Please write your email..">
+
+    			<label for="message">Message</label>
+   				<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+    			<input type="submit" value="Submit">
+    		</div>
+    		<div class="col-6">
+    			<br><br><br><br>
+    			<h4>You can also contact me in my socials:</h4>
+    			<div class="contactlogo"><p>Facebook</p><a href="https://www.facebook.com/neo.perez.121/"> <img src="images/facebook.png"  id="logo"></a></div>
+    			<div class="contactlogo"><p>Twitter</p><a href="https://twitter.com/ArtiagaNeo"><img src="images/twitter.png"  id="logo"></a></div>
+    			<div class="contactlogo"><p>Instagram</p><a href="https://www.instagram.com/marcneoa/"><img src="images/instagram.png"  id="logo"></a></div>
+
+    		</div>
+    		
+		</div>
+
+		<div class="col-2"></div>
+	</div>
+
+</div>
+
+
+<footer>
+        <span>Created By <a href="#header">Marc Neo Artiaga</a> | 2023 All rights reserved.</span>
+</footer>
+
+<script src="index.js"></script>
+</body>
+
+</html>
